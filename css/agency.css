@@ -176,7 +176,9 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  /*background-image: url("../img/header-bg.jpg");*/
+  background: url('imagens/ruido.png'),
+        linear-gradient(50deg,#766A65,#EDD812);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
